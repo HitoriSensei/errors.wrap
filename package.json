@@ -1,8 +1,12 @@
 {
   "name": "@hitorisensei/errors.wrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/cjs/wrap.js",
   "module": "./dist/esm/wrap.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HitoriSensei/errors.wrap.git"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && tsc -b tsconfig.build.json && tsc -b tsconfig.build-esm.json",
