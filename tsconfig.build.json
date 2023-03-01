@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/cjs",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noEmit": false,
+    "sourceMap": false,
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "@types",
+    "src/**/*.d.ts"
+  ],
+  "files": [
+    "src/wrap.ts",
+  ]
+}

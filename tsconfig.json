@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "target": "ES2021",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "lib": ["ES2021"],
+    "paths": {
+      "src/*": ["./src/*"]
+    }
+  },
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
