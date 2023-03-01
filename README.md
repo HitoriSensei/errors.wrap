@@ -2,6 +2,8 @@
 
 This is a simple library for wrapping errors with additional context messages for rethrowing without losing the original error stack trace and message.
 
+Inspired by GO Lang error wrapping.
+
 ## Example
     
 ### Without wrapping
